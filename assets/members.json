@@ -6,7 +6,8 @@
             "prenom": "Paul",
             "mail": "bernaultpaul@gmx.fr",
             "formule": "mouette",
-            "password": "$2y$10$JIafdKTFU246NqfScRwyTOFrX1.vww3vd8/QYt2.BWrYHoTCi9ile"
+            "password": "$2y$10$JIafdKTFU246NqfScRwyTOFrX1.vww3vd8/QYt2.BWrYHoTCi9ile",
+            "image": "assets/imgSite/3.jpg"
         },
         {
             "id": "mm",
@@ -14,7 +15,8 @@
             "prenom": "martin",
             "mail": "gimaloumartin@gmx.fr",
             "formule": "goeland",
-            "password": "$2y$10$s9Oms4TJsJXxhKgNx2weE.SZO97sMVL5OOEHNdhwp18XWOrfPNady"
+            "password": "$2y$10$s9Oms4TJsJXxhKgNx2weE.SZO97sMVL5OOEHNdhwp18XWOrfPNady",
+            "image": "assets/imgSite/5.jpg"
         },
         {
             "id": "pj",
@@ -22,7 +24,8 @@
             "prenom": "julie",
             "mail": "ploutrejulie@gmx.fr",
             "formule": "albatros",
-            "password": "$2y$10$Q/Qco5P5NjHk4nEuCCgEVerIKblxB49yH/orxbmtZyxQghB61N48O"
+            "password": "$2y$10$Q/Qco5P5NjHk4nEuCCgEVerIKblxB49yH/orxbmtZyxQghB61N48O",
+            "image": "assets/imgSite/1.jpg"
         },
         {
             "id": "demo",
@@ -30,7 +33,8 @@
             "prenom": "demo",
             "mail": "demo",
             "formule": "demo",
-            "password": "$2y$10$f5.J59gYGTv0v6QmZAHC9.BlEqjlH4nBrBFHd8Lk5xO0HMUM2nVde"
+            "password": "$2y$10$f5.J59gYGTv0v6QmZAHC9.BlEqjlH4nBrBFHd8Lk5xO0HMUM2nVde",
+            "image": "assets/imgSite/2.jpg"
         }
     ]
 }

@@ -114,7 +114,7 @@ body {
     color: rgb(16, 212, 16);
 }
 
-.preview {
+.upload .preview {
     max-width: 100%;
     border-radius: 1rem;
 }
@@ -125,4 +125,27 @@ body {
 
 .gallery span {
     font-weight: lighter;
+}
+
+.profil{
+    background-image: url("https://images.wallpaperscraft.com/image/trees_top_view_green_121499_1920x1080.jpg");
+}
+
+.profil .imageprofil {
+    display: block;
+    width: 9em;
+    height: 9em;
+    border-radius: 100%;   
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0.001em;
+}
+
+.profil .case1{
+    width: 360px;
+}
+
+.profil .mydark {
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 1rem;
+    border-radius: 1rem;
 }
