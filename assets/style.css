@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap');
+body {
+    font-family: 'Baloo 2', cursive;
+    padding-bottom: 70px;
+}
+
+.accueil .myForm {
+    max-width: 800px;
+    width: 100%;
+}
+
+.accueil form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accueil {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80);
+    background-position: center;
+    color: white;
+}
+
+.accueil h1 {
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.459);
+    font-weight: bold;
+}
+
+.accueil input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    border-radius: 0;
+    text-align: center;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.459);
+    max-width: 250px;
+    margin: 0 auto;
+    color: white;
+}
+
+.accueil input:focus {
+    background-color: transparent;
+    border: none;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.459);
+    outline: none;
+    color: white;
+    box-shadow: none;
+}
+
+.accueil input::placeholder {
+    color: white;
+}
+
+.accueil label {
+    display: none;
+}
+
+.accueil button {
+    background-color:white;
+    color: rgb(0, 128, 68);
+    border: none;
+    border-radius: 100px;
+    padding: 0.3rem 1rem;
+    opacity: 0.8;
+    margin-top: 2rem;
+}
+
+.upload {
+    background-image: url(https://images.unsplash.com/photo-1588392382834-a891154bca4d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80);
+    background-position: center;
+    color: white;
+}
+
+.upload input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.upload label,
+.upload button {
+    display: block;
+}
+
+.upload label {
+    width: max-content;
+    background-color: #ffffffd8;
+    position: relative;
+    padding: 0.3rem 1rem;
+    border-radius: 100px;
+    color: rgb(0, 128, 58);
+    margin: 0 auto;
+}
+
+.upload button {
+    background-color: rgba(0, 128, 79, 0.815);
+    border: none;
+    padding: 0.3rem 1rem;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+.upload button:hover {
+    background-color: rgb(0, 128, 58);
+}
+
+.upload i {
+    font-size: 5rem;
+    color: rgb(16, 212, 16);
+}
+
+.preview {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.gallery {
+    color: black;
+}
+
+.gallery span {
+    font-weight: lighter;
+}

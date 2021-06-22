@@ -1,0 +1,36 @@
+{
+    "membres": [
+        {
+            "id": "bp",
+            "nom": "bernault",
+            "prenom": "Paul",
+            "mail": "bernaultpaul@gmx.fr",
+            "formule": "mouette",
+            "password": "$2y$10$JIafdKTFU246NqfScRwyTOFrX1.vww3vd8/QYt2.BWrYHoTCi9ile"
+        },
+        {
+            "id": "mm",
+            "nom": "mimalou",
+            "prenom": "martin",
+            "mail": "gimaloumartin@gmx.fr",
+            "formule": "goeland",
+            "password": "$2y$10$s9Oms4TJsJXxhKgNx2weE.SZO97sMVL5OOEHNdhwp18XWOrfPNady"
+        },
+        {
+            "id": "pj",
+            "nom": "ploutre",
+            "prenom": "julie",
+            "mail": "ploutrejulie@gmx.fr",
+            "formule": "albatros",
+            "password": "$2y$10$Q/Qco5P5NjHk4nEuCCgEVerIKblxB49yH/orxbmtZyxQghB61N48O"
+        },
+        {
+            "id": "demo",
+            "nom": "demo",
+            "prenom": "demo",
+            "mail": "demo",
+            "formule": "demo",
+            "password": "$2y$10$f5.J59gYGTv0v6QmZAHC9.BlEqjlH4nBrBFHd8Lk5xO0HMUM2nVde"
+        }
+    ]
+}
