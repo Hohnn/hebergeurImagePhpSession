@@ -149,3 +149,7 @@ body {
     padding: 1rem;
     border-radius: 1rem;
 }
+
+.navbar {
+    background-color: rgba(0, 100, 0, 0.267);
+}
