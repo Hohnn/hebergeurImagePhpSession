@@ -26,11 +26,12 @@ if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
                     </a> 
                 </div>
                 <?php
+                $count++;
             }
         }
         if ($count == 0) {
             ?>
-            <h3>Vide</h3>
+            <h3>Vous n'avez aucune photo</h3>
             <?php
         }
         $_SESSION['size'] = $size;

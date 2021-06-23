@@ -18,36 +18,20 @@
 </head>
 
 <body class="profil">
-  <div class="container">
-    <form class="case1 row mx-auto mt-2 d-flex justify-content-center" method="POST">  
-      <img class="imageprofil" src="<?=$_SESSION['image']?>"/>
-      <div class="card col-12 bg-transparent m-4 ">
-        <div class="col-12 mydark">
-          <h1 class="text-center text-white">Votre profil</h1>
-          <div class="card-body">
-            <h6 class="card-subtitle mb-4 text-white text-center">Merci de nous faire confiance</h6>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <td class="text-white"><?= $_SESSION['lastname']  ?></td>
-                </tr>
-                <tr>
-                  <td class="text-white"><?= $_SESSION['firstname']  ?></td>
-                </tr>
-                <tr>
-                  <td class="text-white"><?= $_SESSION['mail']  ?></td>
-                </tr>
-                <tr>
-                  <td class="text-white"><?= $_SESSION['formule']  ?></td>
-                </tr>
-              </tbody>
-            </table>
-            <button class="bouton btn btn-success" name="deconnexion" value="a" class="link-success"> Déconnexion</button>
-          </div>
-        </div>
-      </div>
-    </form>
-    <?php include "navbar.php" ?>
+  <div class="container myCenter">
+    <img class="imageprofil mx-auto" src="<?=$_SESSION['image']?>"/>
+    <div class="info mydark text-white text-center">
+      <h1 class="text-center">Votre profil</h1>
+      <h6 class="card-subtitle mb-4 text-center">Merci de nous faire confiance</h6>
+      <div class="desc py-2"><?= $_SESSION['lastname'] ?></div>
+      <div class="desc py-2"><?= $_SESSION['firstname'] ?></div>
+      <div class="desc py-2"><?= $_SESSION['mail'] ?></div>
+      <div class="desc py-2"><?= $_SESSION['formule'] ?></div>
+      <form class="my-4" method="post">
+        <button class="bouton btn btn-success" name="deconnexion" value="a" class="link-success"> Déconnexion</button>
+      </form>
+    </div>
+  </div>
+  <?php include "navbar.php" ?>
 </body>
-
 </html>

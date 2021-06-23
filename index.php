@@ -11,6 +11,7 @@
     <title>Logo Photo</title>
 </head>
 <body class="accueil">
+
     <h1 class="mb-1">WILDSTORAGE</h1>
     <h5>Près pour une nouvelle aventure ?</h5>
     <div class="myForm p-3">

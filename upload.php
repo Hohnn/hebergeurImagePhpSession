@@ -9,7 +9,7 @@
 </head>
 
 <body class="upload">
-    <div class="container">
+    <div class="container mycontainer mydark">
         <div class="row">
             <h1 class=" text-center my-3">Importer vos images</h1>
             <p class="text-center my-1">Vous avez utilisé <?= $calc?>% / <?= $affiche?> Mo</p>
