@@ -127,7 +127,8 @@ body {
 }
 
 .gallery {
-    color: black;
+    color: white;
+    background-color: rgb(28, 29, 31);
 }
 
 .gallery span {
@@ -207,4 +208,9 @@ body {
 
 .upload .mycontainer {
     max-width: 500px;
+}
+
+.previewPage {
+    background-color: rgb(19, 18, 18);
+    color: white;
 }
