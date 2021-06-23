@@ -4,10 +4,12 @@ if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
     function getImage(){
         $size = 0;
         $storedImage = preg_grep('/^([^.])/', scandir('./assets/img'));
+        $count = 0;
         foreach($storedImage as $imageName){
             $imageId = substr($imageName, 0, 2);
             if ($imageId == $_SESSION['id'] && $_SESSION['id'] != 'demo') {
                 $size = $size + filesize('./assets/img/' . $imageName);
+                $count++;
             ?>
                 <div class="card col-md-6 col-sm-12 col-lg-4 p-2 border-0 bg-transparent" width="100%">
                     <a class="border border-1 border-white" href="preview.php?name=<?= $imageName ?>">
@@ -25,6 +27,11 @@ if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
                 </div>
                 <?php
             }
+        }
+        if ($count == 0) {
+            ?>
+            <h3>Vide</h3>
+            <?php
         }
         $_SESSION['size'] = $size;
     }

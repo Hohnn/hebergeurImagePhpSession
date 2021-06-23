@@ -12,7 +12,10 @@
     <div class="container">
         <div class="row">
             <h1 class=" text-center my-3">Importer vos images</h1>
-            <p class="text-center my-3">Vous avez utilisé <?= $affiche?></p>
+            <p class="text-center my-1">Vous avez utilisé <?= $calc?>% / <?= $affiche?> Mo</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: <?= $calc ?>%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
             <form action="upload.php" method="post" enctype="multipart/form-data">
                 <div class="input-container flex-wrap text-center"">
                     <label for="fileToUpload" id="parcourir">Parcourir...</label>

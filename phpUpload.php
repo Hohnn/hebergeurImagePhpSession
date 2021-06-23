@@ -18,10 +18,12 @@ function formule(){
         $formuleSize = '1000';
     }
     $_SESSION['formuleSize'] = $formuleSize;
-    $calc = ($_SESSION['size'] / 1000000);
-    $phrase = "";
-    $phrase = $calc . ' / ' . $formuleSize . ' Mo';
-    return $phrase;
+    return $formuleSize;
+}
+
+function calc(){
+    $calc = ($_SESSION['size'] / 1000000) * 100 / 5;
+    return intval($calc);
 }
 
 function store($tmp_name, $uid, $ext)
@@ -77,5 +79,7 @@ function upload($img_file, $type = "image", $size = 1000000)
 $uploaded = upload("img");
 
 $affiche = formule();
+
+$calc = calc();
 
 ?>
